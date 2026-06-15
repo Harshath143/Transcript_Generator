@@ -1,0 +1,21 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables (contains API keys)
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Application specific cache and temporary files
+.transcripts_cache/
+temp_audio/
+
+# Generated PDF outputs (optional, but keeps repo clean if running tests locally)
+*.pdf
